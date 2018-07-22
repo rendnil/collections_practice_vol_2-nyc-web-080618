@@ -58,7 +58,7 @@ def merge_data(key_structure, value_structure)
     #  puts element
       #puts item.merge(element)
       
-      item.each do |name, attribute|
+      element.each do |name, attribute|
         new_hash = { }
         #puts name
         puts attribute
