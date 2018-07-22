@@ -83,7 +83,7 @@ end
 
 def organize_schools(schools)
   
-  "jadsijf"
+  organized_schools = {  } 
 
 
 end  
