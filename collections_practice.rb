@@ -69,16 +69,19 @@ end
 
 def find_cool(structure)
   
-  cool_hash = {   }
+  cool_array = [ ]
   structure.each do |element|
     puts element
     element.each do |key, value|
       puts key
       puts value
+      if value == "cool"
+        cool_array.push(element)
 
 
    end
   end
+  cool_array
 end  
   
 
