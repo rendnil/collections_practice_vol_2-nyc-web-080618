@@ -99,6 +99,7 @@ def organize_schools(schools)
   schools.each do |element, attribute|
     puts element
     puts attribute
+    school_locations[attribute.values.join()].push(element)
     
 end 
   puts school_locations
