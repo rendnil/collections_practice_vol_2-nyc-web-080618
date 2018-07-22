@@ -67,7 +67,7 @@ end
 merged_data
 end  
 
-def find_cool()
+def find_cool(structur)
   
   puts "hi"
 
