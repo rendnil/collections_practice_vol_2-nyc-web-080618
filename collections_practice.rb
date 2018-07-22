@@ -68,7 +68,8 @@ def merge_data(key_structure, value_structure)
 
 end
 end  
-end  
+end
+puts merged_data
 end  
 
 keys = [
