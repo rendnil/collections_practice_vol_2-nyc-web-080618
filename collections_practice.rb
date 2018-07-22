@@ -60,6 +60,7 @@ def merge_data(key_structure, value_structure)
         puts name
         puts attribute
 
+end
 end  
 end  
 end  
