@@ -72,9 +72,11 @@ def find_cool(structure)
   cool_hash = {   }
   structure.each do |element|
     puts element
+    element.each do |key, value|
+      puts key
 
 
-
+   end
   end
 end  
   
