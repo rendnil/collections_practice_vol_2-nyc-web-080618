@@ -70,7 +70,7 @@ end
 end
 end  
 end
-puts merged_data
+merged_data
 end  
 
 keys = [
