@@ -83,10 +83,31 @@ end
 
 def organize_schools(schools)
   
-  organized_schools = {  } 
+  puts organized_schools = {  } 
 
 
 end  
   
 
-schools = 
+schools = {
+      "flatiron school bk" => {
+        :location => "NYC"
+      },
+      "flatiron school" => {
+        :location => "NYC"
+      },
+      "dev boot camp" => {
+        :location => "SF"
+      },
+      "dev boot camp chicago" => {
+        :location => "Chicago"
+      },
+      "general assembly" => {
+        :location => "NYC"
+      },
+      "Hack Reactor" => {
+        :location => "SF"
+      }
+    }
+    
+organize_schools(schools)    
