@@ -83,17 +83,3 @@ def find_cool(structure)
 end  
   
 
-
-cool = [
-            {
-                   :name => "ashley",
-            :temperature => "sort of cool"
-        },
-            {
-                   :name => "blake",
-            :temperature => "cool"
-        }
-    ]
-  
-find_cool(cool) 
-  
