@@ -80,5 +80,12 @@ def find_cool(structure)
   end
   cool_array
 end  
+
+def organize_schools(schools)
+  
+  "jadsijf"
+
+
+end  
   
 
