@@ -71,14 +71,12 @@ def find_cool(structure)
   
   cool_array = [ ]
   structure.each do |element|
-    puts element
+    
     element.each do |key|
-      puts key
-      #puts value
-      #if value == "cool"
-       # cool_array.push(element)
-
-    #end
+      
+      if value == "cool"
+        cool_array.push(element)
+     end
    end
   end
   cool_array
