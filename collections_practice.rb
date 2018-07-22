@@ -101,7 +101,7 @@ def organize_schools(schools)
     school_locations[attribute.values.join()].push(element)
     
 end 
-  puts school_locations
+  school_locations
 end  
   
 
