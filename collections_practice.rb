@@ -83,7 +83,7 @@ end
 
 def organize_schools(schools)
   
-  schools.each do |element|
+  schools.each do |element, attribute|
     puts element
     
 
