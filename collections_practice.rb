@@ -69,11 +69,13 @@ end
 
 def find_cool(structure)
   
-  puts "hi"
+  cool_hash = {   }
+  structure.each do |element|
+    puts element
 
 
 
-
+  end
 end  
   
 
