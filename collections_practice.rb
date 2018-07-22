@@ -52,33 +52,9 @@ end
 def merge_data(key_structure, value_structure)
   #puts value_structure
   merged_data = [ ]
-  key_structure.each do |item|
-    new_hash = {  }
-   # puts item.keys
-    #puts item.values
-    
-    value_structure.each do |element|
-      
-      element.each do |element_key, element_value|
-        #puts element_key
-        #puts item.values
-        puts item.values
-        puts element_key
-        
-       if element_key == item.values
-        puts item.values
-      new_hash[item.keys] = item.value
-        puts new_hash
-        
-    #item.each do |key, value|
-  end
-  end
-  end
-  end  
   
-
-
-
+  
+  
 end  
 
 keys = [
