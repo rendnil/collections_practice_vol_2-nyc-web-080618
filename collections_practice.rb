@@ -74,6 +74,7 @@ def find_cool(structure)
     #puts element
     element.each do |key, value|
       puts key
+      puts value
 
 
    end
