@@ -62,7 +62,7 @@ def merge_data(key_structure, value_structure)
         new_hash = { }
         #puts name
         #puts attribute
-        puts new_hash = item.merge(attribute)
+        new_hash = item.merge(attribute)
         merged_data.push(new_hash)
 
 
