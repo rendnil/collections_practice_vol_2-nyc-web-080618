@@ -87,7 +87,7 @@ def organize_schools(schools)
   schools.each do |element, attribute|
     
     if attribute.keys.join() == "location"
-      school_locations[attribute.values] = [ ]
+      school_locations[attribute.values.join()] = [ ]
 
 end
   end    
