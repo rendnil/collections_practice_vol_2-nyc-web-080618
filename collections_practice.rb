@@ -62,10 +62,11 @@ def merge_data(key_structure, value_structure)
         new_hash = { }
         #puts name
         #puts attribute
-        new_hash = item.merge(attribute)
-        merged_data.push(new_hash)
+        if name == item.values
+         new_hash = item.merge(attribute)
+         merged_data.push(new_hash)
 
-
+end
 end
 end  
 end
