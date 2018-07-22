@@ -85,7 +85,7 @@ def organize_schools(schools)
   
   school_locations =  [    ]
   schools.each do |element, attribute|
-    atrribute.keys
+    puts attribute.keys
     if attribute.keys == :location
       school_locations[attribute.values] = [ ]
 
