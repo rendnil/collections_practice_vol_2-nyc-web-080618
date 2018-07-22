@@ -53,9 +53,9 @@ def merge_data(key_structure, value_structure)
   merged_data = [ ]
   
   key_structure.each do |item|
-    puts item
+   # puts item
     value_structure.each do |element|
-      puts element
+    #  puts element
       puts item.merge(element)
       
       #item.each do |name, attribute|
