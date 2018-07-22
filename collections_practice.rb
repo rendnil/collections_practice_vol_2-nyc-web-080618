@@ -56,7 +56,8 @@ def merge_data(key_structure, value_structure)
     puts item
     value_structure.each do |item|
       puts item
-  
+
+end  
 end  
 end  
 
