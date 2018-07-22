@@ -61,9 +61,9 @@ def merge_data(key_structure, value_structure)
       item.each do |name, attribute|
         new_hash = { }
         #puts name
-        #puts attribute
-        new_hash = item.merge(attribute)
-        merged_data.push(new_hash)
+        puts attribute
+        #new_hash = item.merge(attribute)
+        #merged_data.push(new_hash)
 
 
 end
