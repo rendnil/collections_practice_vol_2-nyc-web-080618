@@ -89,8 +89,8 @@ def organize_schools(schools)
     puts attribute
     
     if attribute.keys.join() == "location"
-     
-      school_locations[attribute.values.join()] = [ ]
+      
+      #school_locations[attribute.values.join()] = [ ]
       school_locations[attribute.values.join()].push(element)
       end
   end    
