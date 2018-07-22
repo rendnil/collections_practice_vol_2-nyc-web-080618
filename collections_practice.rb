@@ -53,48 +53,16 @@ def merge_data(key_structure, value_structure)
   merged_data = [ ]
   
   key_structure.each do |item|
-   # puts item
     value_structure.each do |element|
-    #  puts element
-      #puts item.merge(element)
-      
       element.each do |name, attribute|
         new_hash = { }
-        
-        
+      
         if name == item.values.join()
          new_hash = item.merge(attribute)
          merged_data.push(new_hash)
-
 end
 end
 end  
 end
 merged_data
 end  
-
-keys = [
-           {
-            :first_name => "blake"
-        },
-           {
-            :first_name => "ashley"
-        }
-    ]
-    
-data = [
-           {
-             "blake" => {
-                :awesomeness => 10,
-                     :height => "74",
-                  :last_name => "johnson"
-            },
-            "ashley" => {
-                :awesomeness => 9,
-                     :height => 60,
-                  :last_name => "dubs"
-            }
-        }
-    ]
-    
-merge_data(keys, data)    
