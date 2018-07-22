@@ -88,10 +88,10 @@ def organize_schools(schools)
     if attribute.keys == :location
       school_locations[attribute.values] = [ ]
 
-
+end
   end    
 
-
+  puts school_locations
 end  
   
 
