@@ -81,7 +81,7 @@ def find_cool(structure)
     end
    end
   end
-  cool_array
+  puts cool_array
 end  
   
 
