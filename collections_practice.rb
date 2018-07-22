@@ -89,39 +89,14 @@ def organize_schools(schools)
     if attribute.keys.join() == "location"
       
       school_locations[attribute.values.join()] = [ ]
-      #school_locations[attribute.values.join()].push(element)
       end
-    
   end    
 
   schools.each do |element, attribute|
 
     school_locations[attribute.values.join()].push(element)
     
-end 
+    end 
   school_locations
 end  
   
-
-schools = {
-      "flatiron school bk" => {
-        :location => "NYC"
-      },
-      "flatiron school" => {
-        :location => "NYC"
-      },
-      "dev boot camp" => {
-        :location => "SF"
-      },
-      "dev boot camp chicago" => {
-        :location => "Chicago"
-      },
-      "general assembly" => {
-        :location => "NYC"
-      },
-      "Hack Reactor" => {
-        :location => "SF"
-      }
-    }
-    
-puts organize_schools(schools)    
