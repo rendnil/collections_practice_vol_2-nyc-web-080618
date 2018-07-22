@@ -66,3 +66,28 @@ end
 end
 merged_data
 end  
+
+def find_cool()
+  
+  puts "hi"
+
+
+
+
+end  
+  
+
+
+cool = [
+            {
+                   :name => "ashley",
+            :temperature => "sort of cool"
+        },
+            {
+                   :name => "blake",
+            :temperature => "cool"
+        }
+    ]
+  
+find_cool(cool) 
+  
