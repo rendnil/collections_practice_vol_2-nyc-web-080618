@@ -50,9 +50,8 @@ def count_elements(array)
 end 
 
 def merge_data(key_structure, value_structure)
-  #puts value_structure
-  puts merged_data = [ ]
-  
+  merged_data = [ ]
+  key_structure.merge(value_structure)
   
   
 end  
