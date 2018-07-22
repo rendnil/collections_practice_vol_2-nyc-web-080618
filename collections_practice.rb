@@ -51,7 +51,7 @@ end
 
 def merge_data(key_structure, value_structure)
   #puts value_structure
-  merged_data = [ ]
+  puts merged_data = [ ]
   
   
   
