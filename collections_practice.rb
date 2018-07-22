@@ -99,7 +99,7 @@ def organize_schools(schools)
     puts element
     puts attribute
     
-
+end 
   puts school_locations
 end  
   
