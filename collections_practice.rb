@@ -56,14 +56,17 @@ def merge_data(key_structure, value_structure)
    # puts item
     value_structure.each do |element|
     #  puts element
-      puts item.merge(element)
+      #puts item.merge(element)
       
-      #item.each do |name, attribute|
-       # puts name
+      item.each do |name, attribute|
+        new_hash = { }
+        #puts name
         #puts attribute
+        puts new_hash = item.merge(attribute)
+        merged_data.push(new_hash)
 
 
-#end
+end
 end  
 end  
 end  
