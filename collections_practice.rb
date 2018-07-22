@@ -78,7 +78,7 @@ def find_cool(structure)
       if value == "cool"
         cool_array.push(element)
 
-
+    end
    end
   end
   cool_array
